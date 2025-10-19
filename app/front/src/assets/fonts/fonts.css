@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Suisse Intl";
+  font-style: normal;
+  font-weight: 400;
+  src: url("SuisseIntl/SUISSEINTL-REGULAR.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  font-style: normal;
+  font-weight: 300;
+  src: url("SuisseIntl/SUISSEINTL-LIGHT.OTF") format("opentype");
+}

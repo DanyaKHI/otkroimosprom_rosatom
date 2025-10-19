@@ -1,0 +1,14 @@
+.layoutWithHeader {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layoutWithHeaderContent {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 0; /* чтобы сетка страницы сама управляла отступами */
+  display: flex; /* важно: чтобы ребёнок мог занять 100% по высоте */
+  min-height: 0; /* критично для корректного внутреннего скролла */
+}

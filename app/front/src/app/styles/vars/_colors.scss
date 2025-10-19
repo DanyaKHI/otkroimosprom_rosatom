@@ -1,0 +1,51 @@
+// Основная палитра
+$color-white: #fff;
+$color-black: #000000;
+$color-primary: #21409a;
+$color-secondary: #2684ff;
+$color-accent: #0090ff;
+$color-danger: #ff0000;
+$color-ruler: #e6282b;
+$color-warning: #f47474;
+
+// Нейтральные оттенки
+$color-gray-100: #f9f9f8;
+$color-gray-200: #f5f5f5;
+$color-gray-300: #eeeeee;
+$color-gray-400: #ced4da;
+$color-gray-450: #cfcfcf;
+$color-gray-500: #cccccc;
+$color-gray-600: #888888;
+$color-gray-700: #777777;
+$color-gray-800: #535353;
+$color-gray-850: #353535;
+$color-gray-900: #1f1f5f;
+
+// Элементы интерфейса
+$color-border-default: #eeeeee;
+$color-border-light: #cccccc;
+$color-border-focus: #2684ff;
+$color-border-input: #ced4da;
+
+// Фоны
+$color-background-primary: #ffffff;
+$color-background-secondary: #f5f5f5;
+$color-background-tertiary: #f9f9f8;
+$color-background-dark: #1f1f5f;
+
+// Компоненты канваса
+$color-canvas-grid: #e0e0e0;
+$color-canvas-center-line: #888888;
+$color-canvas-node-bg: #f5f5f5;
+$color-canvas-node-border: #cccccc;
+
+// Специализированные цвета
+$color-teal: #588;
+$color-teal-dark: #088;
+$color-mauve: #988;
+
+// Статусы проекта
+$color-project-status-active: #0090ff;
+$color-project-status-pending: #777777;
+$color-project-status-archived: #353535;
+$color-project-error: #f47474;

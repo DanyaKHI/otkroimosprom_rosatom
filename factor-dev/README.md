@@ -12,6 +12,10 @@
     * Abnormal - Одноклассовый SVM на поиск аномальий относительно классов каткгорий
 
 ### Инструкция
+Скачать модели
+https://disk.360.yandex.ru/d/idKdWDGI90THUw/models
+И положить в папку models
+
 Запуск
 ```
 docker compose up --build

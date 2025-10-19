@@ -1,0 +1,32 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "ignoreFiles": [
+    "src/styles/_normalize.scss",
+    "src/styles/_colors.scss",
+    "src/styles/_variables.scss"
+  ],
+  "rules": {
+    "block-no-empty": true,
+    "order/properties-alphabetical-order": true,
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ],
+    "no-empty-source": null,
+    "selector-class-pattern": null,
+    "color-no-invalid-hex": true,
+    "unit-no-unknown": true,
+    "length-zero-no-unit": true
+  }
+}

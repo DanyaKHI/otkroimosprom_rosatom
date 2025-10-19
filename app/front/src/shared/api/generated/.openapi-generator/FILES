@@ -1,0 +1,17 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+index.ts
+models/CreateDialogRequest.ts
+models/DialogOut.ts
+models/DialogWithMessagesOut.ts
+models/HTTPValidationError.ts
+models/LoginRequest.ts
+models/LoginResponse.ts
+models/MessageView.ts
+models/SendMessageRequest.ts
+models/UserOut.ts
+models/ValidationError.ts
+models/ValidationErrorLocInner.ts
+models/index.ts
+runtime.ts
