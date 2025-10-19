@@ -1,0 +1,21 @@
+name: "xlmr_toxicity"
+backend: "python"
+max_batch_size: 0
+
+input [
+  {
+    name: "TEXT"
+    data_type: TYPE_STRING
+    dims: [ -1 ]           
+  }
+]
+
+output [
+  {
+    name: "P_TOXIC"
+    data_type: TYPE_FP32
+    dims: [ -1 ]           
+  }
+]
+
+instance_group [ { kind: KIND_CPU } ]

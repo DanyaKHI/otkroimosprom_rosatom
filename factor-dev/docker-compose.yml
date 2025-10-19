@@ -1,0 +1,17 @@
+
+services:
+  factor-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: factor-api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/app/models:ro
+    environment:
+      - MODELS_DIR=/app/models
+      - FEATURE_DIM=312
+      - HOST=0.0.0.0
+      - PORT=8080
+    restart: unless-stopped

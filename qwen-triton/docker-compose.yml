@@ -1,0 +1,21 @@
+services:
+  qwen-triton:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qwen-triton
+    ports:
+      - "8000:8000"  
+      - "8001:8001"  
+      - "8002:8002"  
+    environment:
+     
+      - MODEL_ID=Qwen/Qwen2-1.5B-Instruct
+      - MAX_INPUT_TOKENS=2048
+      - MAX_NEW_TOKENS=256
+      - TEMPERATURE=0.7
+      - TOP_P=0.9
+      - DO_SAMPLE=true
+      - TORCH_NUM_THREADS=4
+      - USE_CHAT_TEMPLATE=1
+    restart: unless-stopped

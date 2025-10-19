@@ -1,0 +1,102 @@
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ipynb_checkpoints/
+dist/
+build/
+.eggs/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.venv/
+venv/
+env/
+ENV/
+*.log
+
+# ---- FastAPI / Uvicorn runtime ----
+*.sqlite3
+uvicorn.log
+gunicorn.log
+
+# ---- CatBoost / Models / Encoders ----
+# Храним каталог, но не бинарники моделей
+models/*
+!models/.gitkeep
+*.cbm
+*.joblib
+*.bin
+
+# ---- Data / RAG corpora ----
+data/*
+!data/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.pickle
+*.pkl
+*.npy
+*.npz
+
+# ---- Node / React ----
+web/node_modules/
+web/.pnpm-store/
+web/.npm/
+web/.yarn/
+web/.cache/
+web/build/
+web/.next/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Env / Secrets ----
+.env
+.env.*
+*.env
+*.secret
+secrets/
+*.key
+*.pem
+
+# ---- Docker ----
+*.pid
+docker-compose.override.yml
+.docker/
+docker/*.env
+
+# ---- Triton model repo (если хранится локально) ----
+triton-model-repo/*
+!triton-model-repo/.gitkeep
+
+# ---- Misc ----
+# кэш линтеров/форматтеров
+ruff_cache/
+.prettier-cache/
+.eslintcache
+
+# ---- Generated artifacts ----
+reports/
+tmp/
+temp/

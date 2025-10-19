@@ -1,0 +1,21 @@
+name: "rubert_tiny2_embeddings"
+backend: "python"
+max_batch_size: 0
+
+input [
+  {
+    name: "TEXT"
+    data_type: TYPE_STRING
+    dims: [ -1 ]         
+  }
+]
+
+output [
+  {
+    name: "EMBEDDINGS"
+    data_type: TYPE_FP32
+    dims: [ -1, 312 ]    
+  }
+]
+
+instance_group [ { kind: KIND_CPU } ]
