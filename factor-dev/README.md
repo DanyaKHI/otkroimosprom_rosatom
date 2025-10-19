@@ -13,8 +13,8 @@
 
 ### Инструкция
 Скачать модели
-https://disk.360.yandex.ru/d/idKdWDGI90THUw/models
-И положить в папку models
+https://disk.360.yandex.ru/d/trzOa9QLNBQIaw
+и положить в папку models
 
 Запуск
 ```
