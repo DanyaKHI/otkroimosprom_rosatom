@@ -13,7 +13,7 @@ services:
 
   web:
     build:
-      context: ./web
+      context: ./front
       dockerfile: Dockerfile
     container_name: web
     ports:
